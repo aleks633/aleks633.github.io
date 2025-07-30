@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VipBet</title> <!-- Змініть назву виду спорту відповідно -->
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <!-- Age Verification Pop-up -->
+  <div id="age-popup" class="popup">
+    <div class="popup-content">
+      <h2>Are you 18 or older?</h2>
+      <button class="button button-yes" onclick="acceptAge()">Yes, Enter</button>
+      <button class="button button-no" onclick="denyAge()">No</button>
+    </div>
+  </div>
+
+  <header class="header" id="VipBet">
+    <div class="bg"></div>
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="logo">
+        </a>
+        <img class="open btnMenu" src="img/burger.png" alt="">
+        <ul class="menu">
+          <img class="close btnMenu" src="img/close.png" alt="">
+          <li class="item"><a href="#VipBet">VipBet</a></li>
+          <li class="item"><a href="#play">How to play?</a></li>
+          <li class="item"><a href="#choise">Game selection</a></li>
+          <li class="item"><a href="#about">About</a></li>
+          <li class="item"><a href="#team">Team</a></li>
+          <li class="item"><a href="#reviews">Reviews</a></li>
+          <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="content">
+        <h1 class="titleBig">What Is VipBet?</h1>
+        <p class="descr">VipBet is a digital daily fantasy sports (DFS) platform where users can create and manage
+          virtual teams built from real athletes across four sports: football, basketball, volleyball, and badminton.
+          The idea is straightforward — participants select players from scheduled real-world matches, organize them
+          into their fantasy teams, and track how those teams perform based on the athletes’ actual statistics.</p>
+        <p class="descr">DFS is a type of sports-based strategy activity that allows fans to engage more deeply with the
+          games they follow. It is not gambling, and there are no cash prizes or betting elements involved. Instead,
+          VipBet provides an interactive way to analyze sports, compare strategies, and observe how decisions
+          translate into points as the real matches unfold.</p>
+      </section>
+    </div>
+  </header>
+
+  <section class="oneBlock mb" id="play">
+    <div class="container">
+      <h2 class="titleMiddle">How the Platform Functions</h2>
+      <p class="descr">The platform follows a structured, step-by-step process:</p>
+      <ul class="list">
+        <li class="item"><span class="strong">Choosing a sport:</span> Users can select from football, basketball,
+          volleyball, or badminton. This flexibility allows people to explore their knowledge across multiple games.
+        </li>
+        <li class="item"><span class="strong">Selecting athletes:</span> Each match day, participants see a pool of real
+          players scheduled to play. Users choose a combination of athletes to form their fantasy team lineup.</li>
+        <li class="item"><span class="strong">Scoring system:</span> When those players perform actions during real
+          games — such as scoring a goal, making an assist, serving an ace, blocking a shot, or winning a rally — those
+          actions translate into points.</li>
+        <li class="item"><span class="strong">Leaderboards and comparisons:</span> Scores accumulate during matches and
+          are displayed in leaderboards. Users can see how their team performs compared to other participants’ teams in
+          free contests.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="twoBlock mb" id="choise">
+    <div class="container">
+      <h2 class="titleMiddle">Multi-Sport Coverage and Player Selection</h2>
+      <p class="descr">VipBet stands out by including four different sports, each with its own scoring details:</p>
+      <ul class="list">
+        <li class="item football"><span class="strong">Football:</span> Points may come from goals, assists, passes, tackles, or
+          goalkeeper saves.</li>
+        <li class="item basketball"><span class="strong">Basketball:</span> Points might be awarded for rebounds, assists, steals, blocks, or scoring shots.</li>
+        <li class="item volleyball"><span class="strong">Volleyball:</span> Spikes, blocks, serves, and defensive saves are reflected in the scoring.</li>
+        <li class="item badminton"><span class="strong">Badminton:</span>Players earn points for winning rallies, games, and achieving strong in-match statistics.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about mb" id="about">
+    <div class="container">
+      <h2 class="titleMiddle">About Us</h2>
+      <p class="descr">VipBet is a company dedicated to providing a platform where sports enthusiasts can engage in Daily Fantasy Sports (DFS) by selecting real athletes from football, basketball, volleyball, and badminton. Our mission is to offer an entertaining, knowledge-based experience where users build virtual teams, earn points based on real match performances, and compete in scheduled tournaments. The platform complies with all relevant regulations and policies to ensure a fair, transparent, and legal gaming environment.</p>
+    </div>
+  </section>
+
+  <section class="threeBlock mb" id="team">
+    <div class="container">
+      <h2 class="titleMiddle">Our Team</h2>
+      <div class="team">
+        <div class="person">
+          <img src="img/person-1.jpg" alt="person">
+          <h2 class="titleSmall">Rajesh Kumar</h2>
+          <p class="descr">CEO</p>
+          <p class="descr">Rajesh has 10+ years in sports tech and leads the company with a vision to innovate fantasy sports in India.</p>
+        </div>
+        <div class="person">
+          <img src="img/person-3.jpg" alt="person">
+          <h2 class="titleSmall">Anjali Mehta</h2>
+          <p class="descr">Head of Operations</p>
+          <p class="descr">Anjali specializes in user experience and operational efficiency, ensuring smooth gameplay for all users.</p>
+        </div>
+        <div class="person">
+          <img src="img/person-2.jpg" alt="person">
+          <h2 class="titleSmall">Vikram Singh</h2>
+          <p class="descr">Lead Developer</p>
+          <p class="descr">Vikram is responsible for platform development and maintaining seamless integration of live sports data.</p>
+        </div>
+        <div class="person">
+          <img src="img/person-4.jpg" alt="person">
+          <h2 class="titleSmall">Sneha Joshi</h2>
+          <p class="descr">Customer Support</p>
+          <p class="descr">Sneha handles all user inquiries and support, committed to assisting players 24/7.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fourBlock mb" id="reviews">
+    <div class="container">
+      <h2 class="titleMiddle">User Reviews</h2>
+      <ul class="list">
+        <li class="item">I love how the platform lets me follow multiple sports and create my own teams without any betting involved. It’s all about knowledge and fun! — <span class="strong">Arjun S</span>.</li>
+        <li class="item">The point system is straightforward and reflects real game performances. The tournaments keep things exciting. — <span class="strong">Meera P</span>.</li>
+        <li class="item">Great support team and smooth interface. I enjoy competing in badminton and volleyball tournaments here. —<span class="strong">Kiran T</span>.</li>
+        <li class="item">A perfect platform for sports fans who want to test their understanding of the game without any financial risk. — <span class="strong">Nisha R</span>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="fiveBlock mb">
+    <div class="container">
+      <h2 class="titleMiddle">Contact Us</h2>
+      <p class="descr"><span class="strong">Phone:</span> +91 1234 567 890</p>
+      <p class="descr"><span class="strong">Email:</span> support@vipbet.com</p>
+      <p class="descr"><span class="strong">Address:</span> 123 Sports Ave, Bengaluru, Karnataka, India</p>
+    </div>
+  </section>
+
+
+  <footer class="footer mb" id="contact">
+    <div class="container">
+        <p><strong>Disclaimer:</strong> 18+ | For entertainment only | This site does not offer gambling or betting for money.</p>
+        <p>© 2025 [Legal Company Name]. All Rights Reserved.</p>
+        <p>Registered Office: 123 Sports Ave, Bengaluru, Karnataka, India</p>
+        <p>
+            <a href="/terms-of-service" style="color:#ccc; margin:0 10px;">Terms of Service</a> | 
+            <a href="/privacy-policy" style="color:#ccc; margin:0 10px;">Privacy Policy</a> | 
+            <a href="/contest-rules" style="color:#ccc; margin:0 10px;">Contest Rules</a>
+        </p>
+        <p>Contact: <a href="mailto:support@vipbet.com" style="color:#ccc;">support@vipbet.com</a></p>
+    </div>
+</footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
